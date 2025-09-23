@@ -220,24 +220,6 @@
         "padding_bottom": 36
       }
     },
-    "shoutbox_cta_bRPfWW": {
-      "type": "shoutbox-cta",
-      "name": "Shoutbox CTA",
-      "settings": {
-        "heading_text": "Shout it from the rooftops",
-        "heading_tag": "h1",
-        "header_style": "h1",
-        "text_alignment": "center",
-        "content": "<p>Tell customers about a promotion, feature, or update.</p>",
-        "button_label": "Learn more",
-        "button_url": "/",
-        "button_target": false,
-        "button_style": "primary-cta",
-        "button_width": "cta-width-auto",
-        "bg_color": "#ffffff",
-        "display_condition": "only_cart_empty"
-      }
-    },
     "collapsible_content_7AtVLF": {
       "type": "collapsible-content",
       "blocks": {
@@ -308,7 +290,6 @@
     "collage",
     "video",
     "multicolumn",
-    "shoutbox_cta_bRPfWW",
     "collapsible_content_7AtVLF"
   ]
 }

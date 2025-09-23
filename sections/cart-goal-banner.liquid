@@ -1,0 +1,32 @@
+{% comment %} Cart Goal Banner — shows API message from your server {% endcomment %}
+<section class="cart-goal-banner">
+  <div class="page-width">
+    <div id="cart-goal-message" class="cart-goal-message">Checking your cart...</div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Cart goal banner",
+  "settings": [
+    { "type": "text", "id": "api_url", "label": "API base URL", "default": "http://localhost:3000" },
+    {
+      "type": "range",
+      "id": "poll_delay",
+      "label": "Delay after add-to-cart (ms)",
+      "min": 0,
+      "max": 3000,
+      "step": 100,
+      "default": 800
+    }
+  ],
+  "presets": [{ "name": "Cart goal banner", "category": "Custom" }]
+}
+{% endschema %}
+
+{% javascript %}
+  window.__CART_GOAL_CONFIG__ = {
+    apiUrl: "{{ section.settings.api_url }}",
+    pollDelay: {{ section.settings.poll_delay | default: 800 }}
+  };
+{% endjavascript %}
