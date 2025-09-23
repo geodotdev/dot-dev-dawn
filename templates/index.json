@@ -235,7 +235,7 @@
         "button_style": "primary-cta",
         "button_width": "cta-width-auto",
         "bg_color": "#ffffff",
-        "display_condition": "always"
+        "display_condition": "only_cart_empty"
       }
     },
     "collapsible_content_7AtVLF": {
