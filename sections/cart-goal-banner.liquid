@@ -24,9 +24,9 @@
 }
 {% endschema %}
 
-{% javascript %}
+<script>
   window.__CART_GOAL_CONFIG__ = {
     apiUrl: "{{ section.settings.api_url }}",
     pollDelay: {{ section.settings.poll_delay | default: 800 }}
   };
-{% endjavascript %}
+</script>
