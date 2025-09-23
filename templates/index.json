@@ -227,7 +227,7 @@
         "heading_text": "Shout it from the rooftops",
         "heading_tag": "h1",
         "header_style": "h1",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "content": "<p>Tell customers about a promotion, feature, or update.</p>",
         "button_label": "Learn more",
         "button_url": "/",
@@ -235,7 +235,7 @@
         "button_style": "primary-cta",
         "button_width": "cta-width-auto",
         "bg_color": "#ffffff",
-        "display_condition": "only_cart_empty"
+        "display_condition": "always"
       }
     },
     "collapsible_content_7AtVLF": {
