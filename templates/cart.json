@@ -16,6 +16,10 @@
         "padding_bottom": 36
       }
     },
+    "cart-goal-banner": {
+      "type": "cart-goal-banner",
+      "settings": {}
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -56,6 +60,7 @@
     }
   },
   "order": [
+    "cart-goal-banner",
     "cart-items",
     "cart-footer",
     "featured-collection"

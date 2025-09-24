@@ -125,6 +125,13 @@
         "padding_bottom": 12
       }
     },
+    "cart-goal-banner": {
+      "type": "cart-goal-banner",
+      "settings": {
+        "api_url": "http://localhost:3000",
+        "poll_delay": 800
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -221,6 +228,7 @@
     }
   },
   "order": [
+    "cart-goal-banner",
     "main",
     "image-with-text",
     "multicolumn",
